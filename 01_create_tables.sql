@@ -16,3 +16,7 @@ CREATE TABLE rutas (
     destino TEXT
 );
 
+CREATE TABLE ciudades (
+    nombre TEXT PRIMARY KEY,
+    conexiones TEXT[]
+);
